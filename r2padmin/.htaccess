@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile "/home/rise2prosperity/.htpasswds/public_html/r2padmin/passwd"
+require valid-user

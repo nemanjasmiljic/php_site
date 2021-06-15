@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-size:15px;color:#666666}
+
+.dollar-bg:before {
+  content: "\f155"; 
+  font-family: FontAwesome;
+  font-style: normal;
+  position: absolute;
+  font-size: 400px;
+  color: rgba(0,0,0,.05);
+  top: 5%;
+  left:30%;
+  z-index: 1;
+}
+.margin-vertical-10{height:10px; width:100%}
+.margin-vertical-20{height:20px; width:100%}
+.margin-vertical-30{height:30px; width:100%}
+.margin-vertical-40{height:40px; width:100%}
+.margin-vertical-50{height:50px; width:100%}
+.margin-vertical-60{height:60px; width:100%}
+.margin-vertical-70{height:70px; width:100%}
+.margin-vertical-80{height:80px; width:100%}
+.margin-vertical-90{height:90px; width:100%}
+.margin-vertical-100{height:100px; width:100%}
+
+.top-buttons{background:#000080 url(../images/navbar.jpg) repeat-x;padding:10px 0px;color:#fff}
+.headertop{background:url(../images/headertopbg.jpg) repeat-x;height:18px;}
+.second-header{background:#0b3e7f;text-align:center;color:#fff;}
+.second-header .container{position:relative}
+.second-header .container i{position:absolute;top:0px;left:8%; font-size:200px; color:rgba(0,0,0,.2);transform:rotate(-15deg)}
+.second-header .container span{position:absolute;top:0px;right:8%; font-size:200px; color:rgba(0,0,0,.2);transform:rotate(15deg)}
+.second-header .container img{margin-bottom:-30px}
+.side-heading{background:url(../images/navbar.jpg) repeat-x;padding:13px 0px;font-size:20px;text-align:center;font-weight:bold;text-transform:uppercase; color:#FFF}
+.side-content{border-right:2pt solid #0b3e7f;border-left:2pt solid #0b3e7f;border-bottom:2pt solid #0b3e7f;border-radius:5px;padding:10px 0px;margin-top:-8px;position:relative}
+.redstardotpoint{list-style:none;padding-left:0px}
+.redstardotpoint li{background:url(../images/redstardotpoint.jpg) no-repeat;padding-left:30px; padding-top:3px;margin-bottom:8px}
+
+.faq{list-style:none;margin:0}
+.faq li:nth-child(odd){font-weight:bold;margin-bottom:5px;}
+.faq li:nth-child(odd):before{content:"Que. : ";font-weight:bold;margin-right:6px}
+.faq li:nth-child(even){margin-bottom:10px;}
+.faq li:nth-child(even):before{content:"Ans. : ";font-weight:bold;margin-right:10px}
+
+.dashboard-box{border-radius:5px;position:relative;padding:10px;overflow:hidden;min-height:100px;margin-bottom:20px}
+.red-bg{background-color:#DC143C}
+.blue-bg{background-color:#1E90FF}
+.green-bg{background-color:#32CD32}
+.dashboard-box i{position:absolute;right:0px; top:-13px; font-size:140px;color:rgba(0,0,0,.1);transform:rotate(20deg)}
+.dashboard-box .number{font-size:50px;font-weight:bold;color:#fff}
+.dashboard-box .description a{font-size:16px;color:#fff}
+
+.footer1 {
+    background-color: #2d60a2 !important;
+    color: #fff;
+	padding:30px 0px;
+}
+.footer2 {
+    background-color: #0a3c7b !important;
+    color: #09C;
+	padding:30px 0px;
+}
+.footer2 a{color:#09C}
+.footer ul {
+    line-height: 25px;
+    list-style: outside none none;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    color: #09f;
+}
+.foot-heading {
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.facebook {
+    background: rgba(0, 0, 0, 0) url("../images/icon_facebook.png") repeat scroll 32px 0;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease 0s;
+    width: 32px;
+}
+.facebook:hover {
+    background: rgba(0, 0, 0, 0) url("../images/icon_facebook.png") repeat scroll 32px 32px;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 32px;
+}
+.linkedin {
+    background: rgba(0, 0, 0, 0) url("../images/icon_linkedin.png") repeat scroll 32px 0;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease 0s;
+    width: 32px;
+}
+.linkedin:hover {
+    background: rgba(0, 0, 0, 0) url("../images/icon_linkedin.png") repeat scroll 32px 32px;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 32px;
+}
+.twitter {
+    background: rgba(0, 0, 0, 0) url("../images/icon_twitter.png") repeat scroll 32px 0;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease 0s;
+    width: 32px;
+}
+.twitter:hover {
+    background: rgba(0, 0, 0, 0) url("../images/icon_twitter.png") repeat scroll 32px 32px;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 32px;
+}
+.google {
+    background: rgba(0, 0, 0, 0) url("../images/icon_google.png") repeat scroll 32px 0;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease 0s;
+    width: 32px;
+}
+.google:hover {
+    background: rgba(0, 0, 0, 0) url("../images/icon_google.png") repeat scroll 32px 32px;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 32px;
+}
+.pinterest {
+    background: rgba(0, 0, 0, 0) url("../images/icon_pinterest.png") repeat scroll 32px 0;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease 0s;
+    width: 32px;
+}
+.pinterest:hover {
+    background: rgba(0, 0, 0, 0) url("../images/icon_pinterest.png") repeat scroll 32px 32px;
+    float: left;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 32px;
+}

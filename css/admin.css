@@ -1,0 +1,285 @@
+body,html{height: 100%;margin:0}
+.margin-vertical-10{height:10px}
+.margin-vertical-20{height:20px}
+.margin-vertical-30{height:30px}
+.margin-vertical-40{height:40px}
+.margin-vertical-50{height:50px}
+.margin-vertical-60{height:60px}
+.margin-vertical-70{height:70px}
+.margin-vertical-80{height:80px}
+.margin-vertical-90{height:90px}
+.margin-vertical-100{height:100px}
+.loginBox{border:3pt solid #3262ba;border-radius:4px;padding:70px 0 20px 0;position:relative;margin-top:50px}
+.loginBox-img{position:absolute;left:40%;top:-50px;width:100px;height:100px;overflow:hidden;border-radius:50%;border:3pt solid #3262ba;padding:10px;background:#4285f4}
+.text-blue{color:#3262ba}
+
+.navbar-sidebar {
+    background-color: #B22222;
+    border-color: #e7e7e7;
+}
+.navbar-sidebar .navbar-brand {
+    color: #fff;
+}
+.navbar-sidebar .navbar-brand:focus, .navbar-sidebar .navbar-brand:hover {
+    background-color: #8B0000;
+    color: #fff;
+}
+.navbar-sidebar .navbar-text {
+    color: #777;
+}
+.navbar-sidebar .navbar-nav > li > a {
+    color: #fff;
+	transition: background-color 0.5s ease;
+}
+.navbar-sidebar .navbar-nav > li > a:focus, .navbar-sidebar .navbar-nav > li > a:hover {
+    background-color: #8B0000;
+    color: #fff;
+}
+.navbar-sidebar .navbar-nav > .active > a, .navbar-sidebar .navbar-nav > .active > a:focus, .navbar-sidebar .navbar-nav > .active > a:hover {
+    background-color: #8B0000;
+    color: #fff;
+}
+.navbar-sidebar .navbar-nav > .disabled > a, .navbar-sidebar .navbar-nav > .disabled > a:focus, .navbar-sidebar .navbar-nav > .disabled > a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.navbar-sidebar .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-sidebar .navbar-toggle:focus, .navbar-sidebar .navbar-toggle:hover {
+    background-color: #8B0000;
+}
+.navbar-sidebar .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-sidebar .navbar-collapse, .navbar-sidebar .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-sidebar .navbar-nav > .open > a, .navbar-sidebar .navbar-nav > .open > a:focus, .navbar-sidebar .navbar-nav > .open > a:hover {
+    background-color: #8B0000;
+    color: #fff;
+}
+.navbar-sidebar .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff !important;
+}
+@media (max-width: 767px) {
+.navbar-sidebar .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff !important;
+}
+.navbar-sidebar .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-sidebar .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+.navbar-sidebar .navbar-nav .open .dropdown-menu > .active > a, .navbar-sidebar .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-sidebar .navbar-nav .open .dropdown-menu > .active > a:hover {
+    background-color: #e7e7e7;
+    color: #fff !important;
+}
+.navbar-sidebar .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-sidebar .navbar-nav .open .dropdown-menu > .disabled > a:focus, .navbar-sidebar .navbar-nav .open .dropdown-menu > .disabled > a:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+}
+.navbar-sidebar .navbar-link {
+    color: #fff !important;
+}
+.navbar-sidebar .navbar-link:hover {
+    color: #fff !important;
+}
+.navbar-sidebar .btn-link {
+    color: #fff !important;
+}
+.navbar-sidebar .btn-link:focus, .navbar-sidebar .btn-link:hover {
+    color: #fff !important;
+}
+.navbar-sidebar .btn-link[disabled]:focus, .navbar-sidebar .btn-link[disabled]:hover, fieldset[disabled] .navbar-sidebar .btn-link:focus, fieldset[disabled] .navbar-sidebar .btn-link:hover {
+    color: #fff !important;
+}
+
+/* remove outer padding */
+.main .row{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*Remove rounded coners*/
+
+nav.sidebar.navbar {
+	border-radius: 0px;
+}
+nav.sidebar, .main{
+	-webkit-transition: margin 200ms ease-out;
+	-moz-transition: margin 200ms ease-out;
+	-o-transition: margin 200ms ease-out;
+	transition: margin 200ms ease-out;
+}
+
+/* Add gap to nav and right windows.*/
+.main{
+	padding: 10px 10px 0 10px;
+}
+
+/* .....NavBar: Icon only with coloring/layout.....*/
+
+/*small/medium side display*/
+@media (min-width: 768px) {
+
+	/*Allow main to be next to Nav*/
+	.main{
+		position: absolute;
+		width: calc(100% - 40px); /*keeps 100% minus nav size*/
+		margin-left: 40px;
+		float: right;
+	}
+
+	/*lets nav bar to be showed on mouseover*/
+	nav.sidebar:hover + .main{
+		margin-left: 300px;
+	}
+
+	/*Center Brand*/
+	nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 0px;
+	}
+	/*Center Brand*/
+	nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+		text-align: center;
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	/*Center Icons*/
+	nav.sidebar a{
+		padding-right: 13px;
+	}
+
+	/*adds border top to first nav box */
+	nav.sidebar .navbar-nav > li:first-child{
+		border-top: 1px #e5e5e5 solid;
+	}
+
+	/*adds border to bottom nav boxes*/
+	nav.sidebar .navbar-nav > li{
+		border-bottom: 1px #e5e5e5 solid;
+	}
+
+	/* Colors/style dropdown box*/
+	nav.sidebar .navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	/*allows nav box to use 100% width*/
+	nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+		padding: 0 0px 0 0px;
+	}
+
+	/*colors dropdown box text */
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #777;
+	}
+
+	/*gives sidebar width/height*/
+	nav.sidebar{
+		width: 300px;
+		min-height: 100%;
+		margin-left: -260px;
+		float: left;
+		z-index: 8000;
+		margin-bottom: 0px;
+	}
+
+	/*give sidebar 100% width;*/
+	nav.sidebar li {
+		width: 100%;
+	}
+
+	/* Move nav to full on mouse over*/
+	nav.sidebar:hover{
+		margin-left: 0px;
+	}
+	/*for hiden things when navbar hidden*/
+	.forAnimate{
+		opacity: 0;
+	}
+}
+
+/* .....NavBar: Fully showing nav bar..... */
+
+@media (min-width: 1330px) {
+
+	/*Allow main to be next to Nav*/
+	.main{
+		width: calc(100% - 300px); /*keeps 100% minus nav size*/
+		margin-left: 300px;
+	}
+
+	/*Show all nav*/
+	nav.sidebar{
+		margin-left: 0px;
+		float: left;
+	}
+	/*Show hidden items on nav*/
+	nav.sidebar .forAnimate{
+		opacity: 1;
+	}
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+	color: #CCC;
+	background-color: transparent;
+}
+
+nav:hover .forAnimate{
+	opacity: 1;
+}
+section{
+	padding-left: 15px;
+}
+
+.dashboard-box{border-radius:10px;padding:10px;position:relative;color:#fff;margin-bottom:20px}
+.red{background:#B22222;transition: background-color 0.5s ease;}
+.red:hover{background:#8B0000}
+.red i{color:#B22222}
+.red:hover i{color:#8B0000}
+.red .footer{background:#8B0000}
+.green{background:#228B22;transition: background-color 0.5s ease;}
+.green:hover{background:#006400}
+.green i{color:#228B22}
+.green:hover i{color:#006400}
+.green .footer{background:#006400}
+.blue{background:#4285f4;transition: background-color 0.5s ease;}
+.blue:hover{background:#3262ba}
+.blue i{color:#4285f4}
+.blue:hover i{color:#3262ba}
+.blue .footer{background:#3262ba}
+.yellow{background:#CCCC00;transition: background-color 0.5s ease;}
+.yellow:hover{background:#999900}
+.yellow i{color:#CCCC00}
+.yellow:hover i{color:#999900}
+.yellow .footer{background:#999900}
+.dashboard-box .icon{background:#fff;border-radius:50%;width:100px;height:100px;display:table;float:left}
+.dashboard-box i{display:table-cell;vertical-align:middle;text-align:center;transition: color 0.5s ease;}
+.dashboard-box .box-heading{text-align:right;font-size:17px}
+.dashboard-box .box-data{text-align:right;font-size:50px;font-weight:bold}
+.dashboard-box .footer{;padding:5px;margin:15px -10px -10px}
+.dashboard-box .footer a{color:#fff}
+.dashboard-box .footer a:after{font-family:"FontAwesome";content:"\f18e";margin-left:15px}
+
+.footer{
+	background-color:#B22222;
+	color:#fff;
+	padding:10px 0;
+	text-align:center;
+}
+.footer-bottom{
+	background-color:#8B0000;
+	color:#fff;
+	padding:10px 0;
+	text-align:center;
+}
